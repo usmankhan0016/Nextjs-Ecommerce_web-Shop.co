@@ -181,9 +181,9 @@ if(!item){
       {/* left section */}
       <div className='flex flex-col lg:flex-row gap-3 items-center w-[360px] xs:w-[400px] sm:w-[630px] lg:w-auto px-4'>
         <div className='w-full lg:w-[152px] flex flex-row lg:flex-col gap-3 lg:gap-y-3 order-2 lg:order1'>
-          <Image className='w-full h-[110px] xs:h-[125px] sm:h-[180px] lg:w-full lg:h-[167px] rounded-[20px]' src={item.image1} alt='product-image' width={100} height={100}></Image>
-          <Image className='w-full h-[110px] xs:h-[125px] sm:h-[180px] lg:w-full lg:h-[167px] rounded-[20px]' src={item.image2} alt='product-image' width={100} height={100}></Image>
-          <Image className='w-full h-[110px] xs:h-[125px] sm:h-[180px] lg:w-full lg:h-[167px] rounded-[20px]' src={item.image3} alt='product-image' width={100} height={100}></Image>
+          <Image className='h-[110px] xs:h-[125px] sm:h-[180px] lg:w-full lg:h-[167px] rounded-[20px]' src={item.image1} alt='product-image' width={100} height={100}></Image>
+          <Image className='h-[110px] xs:h-[125px] sm:h-[180px] lg:w-full lg:h-[167px] rounded-[20px]' src={item.image2} alt='product-image' width={100} height={100}></Image>
+          <Image className='h-[110px] xs:h-[125px] sm:h-[180px] lg:w-full lg:h-[167px] rounded-[20px]' src={item.image3} alt='product-image' width={100} height={100}></Image>
         </div>
         <div className='w-full h-[290px] sm:h-[330px] lg:w-[444px] lg:h-[530px] order-1 lg:order-3'>
         <Image className='w-full h-full rounded-[20px]' src={item.image_url} alt='product-image' width={250} height={250}></Image>

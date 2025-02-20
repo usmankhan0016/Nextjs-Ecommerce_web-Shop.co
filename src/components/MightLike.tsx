@@ -51,7 +51,7 @@ let products: Iproducts[] = [
 function MightProducts() {
   return (
     <div className="w-full bg-white max-w-screen-2xl mx-auto"> 
-      <h1 className="text-[32px] lg:text-5xl font-extrabold text-center mt-14">YOU MIGHT ALSO LIKE</h1>
+      <h1 className="text-[30px] lg:text-5xl font-extrabold text-center mt-14">YOU MIGHT ALSO LIKE</h1>
       {/* all products grid type ka div */}
       <div className="flex flex-col gap-7 md:flex-row justify-between items-center md:px-5 lg:px-24 mt-7 lg:mt-12">
         {
