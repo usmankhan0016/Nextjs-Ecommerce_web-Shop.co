@@ -33,15 +33,15 @@ export function SheetSide() {
             </li>
 
             <li>
-                <Link href={"/"}>On Sales</Link>
+                <Link href={"/products"}>On Sales</Link>
             </li>
 
             <li>
-                <Link href={"/"}>New Arrivals</Link>
+                <Link href={"/products"}>New Arrivals</Link>
             </li>
 
             <li>
-                <Link href={"/"}>Brands</Link>
+                <Link href={"/category"}>Brands</Link>
             </li> 
         </ul>
          
